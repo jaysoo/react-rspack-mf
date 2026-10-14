@@ -4,11 +4,32 @@
   "license": "MIT",
   "scripts": {},
   "private": true,
-  "dependencies": {},
   "devDependencies": {
+    "@module-federation/enhanced": "^2.1.0",
     "@nx/js": "23.3.0",
+    "@nx/module-federation": "23.3.0",
+    "@nx/react": "23.3.0",
+    "@nx/rspack": "23.3.0",
+    "@nx/web": "23.3.0",
     "@nx/workspace": "23.3.0",
+    "@rspack/cli": "2.0.4",
+    "@rspack/core": "2.0.4",
+    "@rspack/dev-server": "^2.0.1",
+    "@rspack/plugin-react-refresh": "^2.0.0",
+    "@swc-node/register": "~1.11.1",
+    "@swc/core": "~1.15.5",
+    "@swc/helpers": "~0.5.18",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
     "nx": "23.3.0",
+    "react-refresh": "~0.14.0",
+    "tslib": "^2.3.0",
     "typescript": "~6.0.3"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "6.30.3"
   }
 }
