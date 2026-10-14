@@ -23,6 +23,9 @@
       ],
       "remote2/Module": [
         "./apps/remote2/src/remote-entry.ts"
+      ],
+      "@react-rspack-mf/shared-state": [
+        "./libs/shared-state/src/index.ts"
       ]
     }
   },
